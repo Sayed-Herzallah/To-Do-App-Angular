@@ -1,0 +1,44 @@
+<div class="container">
+  <h1>Todo List</h1>
+
+  <div class="input-section">
+    <input
+      type="text"
+      [(ngModel)]="newTodoText"
+      (keyup.enter)="addTodo()"
+      placeholder="Add new todo...">
+    <button (click)="addTodo()">Add</button>
+  </div>
+
+  <div class="filter-buttons">
+    <button
+      [class.active]="currentFilter === 'all'"
+      (click)="setFilter('all')">
+      All ({{ getTotalCount() }})
+    </button>
+    <button
+      [class.active]="currentFilter === 'active'"
+      (click)="setFilter('active')">
+      Active ({{ getActiveCount() }})
+    </button>
+    <button
+      [class.active]="currentFilter === 'completed'"
+      (click)="setFilter('completed')">
+      Completed ({{ getCompletedCount() }})
+    </button>
+  </div>
+
+  <div class="todo-list">
+    <div class="todo-item" *ngFor="let todo of getFilteredTodos()">
+      <div class="todo-left">
+        <input
+        placeholder="add todo"
+          type="checkbox"
+          [checked]="todo.completed"
+          (change)="toggleTodo(todo.id)">
+        <span [class.completed]="todo.completed">{{ todo.text }}</span>
+      </div>
+      <button class="delete-btn" (click)="deleteTodo(todo.id)">Delete</button>
+    </div>
+  </div>
+</div>
