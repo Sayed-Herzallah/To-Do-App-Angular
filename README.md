@@ -1,48 +1,69 @@
-# 📝 Angular To-Do Application
+# 🚀 To-Do-App-Angular
 
-A task management dashboard application built with Angular and TypeScript, emphasizing clean components and state services.
+![Angular](https://img.shields.io/badge/Angular-17.x-red?logo=angular) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript) ![License](https://img.shields.io/badge/License-MIT-green)
 
----
+## 📌 Description
+A professional codebase representing high-performance development practices, clean folder organization, and solid implementation standards. 
 
-## 📌 Overview
-To-Do-App-Angular provides a desktop-friendly task tracker. It demonstrates Angular architecture basics: component bindings, services, directives, and client-side list filtering.
+## 🛠️ Technology Stack
 
----
+| Tech | Purpose |
+| :--- | :--- |
+| Angular | Component-driven enterprise frontend framework |
+| TypeScript | Strongly-typed JavaScript compiler |
+| RxJS | Reactive programming with Observables |
 
-## ⚙️ Tech Stack
+## 🧬 Architecture & Logic Flow
+Below is a conceptual visualization of the components and data rendering logic in this project.
 
-| Technology | Purpose |
-| ---------- | ------- |
-| Angular    | SPA framework |
-| TypeScript | Typed programming language |
-| HTML5/CSS3 | Component template layouts |
+```mermaid
+graph TD
+    User([User App Interaction]) --> View[Component View Layer]
+    View --> Actions[State / Event Handlers]
+    Actions --> Storage[Local State / Context]
+    Storage --> View
+```
 
----
+## 📂 Folder Structure
+```text
+To-Do-App-Angular/
+├── [object Object]
+├── [object Object]
+├── [object Object]
+├── [object Object]
+├── [object Object]
+├── [object Object]
+├── [object Object]
+├── [object Object]
+├── [object Object]
+```
 
-## 🚀 Core Features
-* ➕ **Task CRUD:** Add, edit, check, and remove todo tasks.
-* 🎛️ **Status Filters:** Toggle views between All, Active, and Completed tasks.
-* 📂 **Angular Service:** Component communications driven by a dedicated state service.
+## 🚀 Getting Started
 
----
+### Prerequisites
+- Node.js >= 20 (Required for build/server environments)
+- Modern Web Browser (Chrome, Edge, Firefox)
 
-## ⚙️ Setup & Installation
+### Setup & Launch
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sayed-Herzallah/To-Do-App-Angular.git
    ```
-2. Install dependencies:
+2. Navigate to folder:
+   ```bash
+   cd To-Do-App-Angular
+   ```
+3. Setup Environment:
    ```bash
    npm install
    ```
-3. Run the development server:
+4. Run Locally:
    ```bash
-   ng serve
+   ${deps.next ? 'npm run dev' : (type === 'react' || type === 'angular' || type === 'backend') ? 'npm start' : 'Open index.html directly in your web browser'}
    ```
-4. Open `http://localhost:4200/` in your browser.
 
 ---
-
-## 👨‍💻 Author
+## 👨‍💻 Developed By
 **Sayed Herzallah**  
-Full Stack Developer
+*Backend-Focused Full-Stack Developer*  
+[LinkedIn Profile](https://www.linkedin.com/in/sayed-herzallah) | [Portfolio](https://herzallah.me)
