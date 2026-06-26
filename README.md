@@ -1,69 +1,84 @@
-# 🚀 To-Do-App-Angular
+# ðŸ’» Angular Todo Architecture
 
-![Angular](https://img.shields.io/badge/Angular-17.x-red?logo=angular) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript) ![License](https://img.shields.io/badge/License-MIT-green)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0f172a&height=160&section=header&text=Angular%20Todo%20Architecture&fontSize=42&fontColor=38bdf8&fontFamily=Outfit" width="100%" />
+</div>
 
-## 📌 Description
-A professional codebase representing high-performance development practices, clean folder organization, and solid implementation standards. 
-
-## 🛠️ Technology Stack
-
-| Tech | Purpose |
-| :--- | :--- |
-| Angular | Component-driven enterprise frontend framework |
-| TypeScript | Strongly-typed JavaScript compiler |
-| RxJS | Reactive programming with Observables |
-
-## 🧬 Architecture & Logic Flow
-Below is a conceptual visualization of the components and data rendering logic in this project.
-
-```mermaid
-graph TD
-    User([User App Interaction]) --> View[Component View Layer]
-    View --> Actions[State / Event Handlers]
-    Actions --> Storage[Local State / Context]
-    Storage --> View
-```
-
-## 📂 Folder Structure
-```text
-To-Do-App-Angular/
-├── [object Object]
-├── [object Object]
-├── [object Object]
-├── [object Object]
-├── [object Object]
-├── [object Object]
-├── [object Object]
-├── [object Object]
-├── [object Object]
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js >= 20 (Required for build/server environments)
-- Modern Web Browser (Chrome, Edge, Firefox)
-
-### Setup & Launch
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Sayed-Herzallah/To-Do-App-Angular.git
-   ```
-2. Navigate to folder:
-   ```bash
-   cd To-Do-App-Angular
-   ```
-3. Setup Environment:
-   ```bash
-   npm install
-   ```
-4. Run Locally:
-   ```bash
-   npm start
-   ```
+<div align="center">
+  ![Angular](https://img.shields.io/badge/Angular-v17-red?logo=angular&style=for-the-badge) ![TypeScript](https://img.shields.io/badge/TypeScript-v5-blue?logo=typescript&style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+</div>
 
 ---
-## 👨‍💻 Developed By
-**Sayed Herzallah**  
-*Backend-Focused Full-Stack Developer*  
-[LinkedIn Profile](https://www.linkedin.com/in/sayed-herzallah) | [Portfolio](https://herzallah.me)
+
+## ðŸ“Œ Project Overview (Description)
+A modular to-do task management application built with Angular and TypeScript demonstrating custom directives and state persistence.
+
+This codebase represents professional software development practices, clean module organization, and efficient code architectures tailored for high responsiveness and scalability.
+
+---
+
+## âš¡ The Engineering Challenge
+
+### ðŸ”´ Problem
+Developers building web solutions face difficulties handling state synchronization, styling inconsistencies, and complex configurations that clutter logic and trigger UI slowdowns or connection lifecycle failures.
+
+### ðŸŸ¢ Solution
+This project implements:
+* **Separation of Concerns**: Structured module layouts separating design assets from operational logic.
+* **Optimized Rendering**: Efficient script logic and CSS layout variables to maintain lightweight UI paint times.
+* **Structured Coding Standards**: Written using clean semantic patterns ensuring readable code maintainability.
+
+---
+
+## ðŸ§¬ System Architecture
+The internal layout structures are separated logically:
+`	ext
+angular-todo-architecture/
+â”œâ”€â”€ css/ or styles/      # Styling engines and layouts
+â”œâ”€â”€ js/ or src/          # Source scripts and business logic
+â”œâ”€â”€ index.html or app.js # Operational entry point
+â””â”€â”€ README.md            # System documentation
+`
+
+---
+
+## ðŸ› ï¸ Technology Stack
+
+| Technology | Purpose |
+| :--- | :--- |
+| Angular | Component-driven frontend framework |
+| TypeScript | Static type safety for javascript |
+
+---
+
+## ðŸš€ Local Developer Setup & Run
+
+### ðŸ“‹ Prerequisites
+* Modern web browser / Node.js runtime (depending on project stack)
+
+### âš™ï¸ Quick Start Steps
+`ash
+    git clone https://github.com/Sayed-Herzallah/angular-todo-architecture.git
+    cd angular-todo-architecture
+    # Open index.html in any modern browser, or run local server:
+    python -m http.server 8080
+`
+
+
+
+---
+
+## ðŸ”® Future Improvements
+* [ ] Integrate automated unit testing.
+* [ ] Add dynamic dark/light theme switcher.
+* [ ] Improve responsiveness on extra-small mobile screen viewports.
+
+---
+
+## ðŸ‘¥ Contributors
+* **Sayed Herzallah** - Lead Developer & Systems Architect
+
+---
+
+## ðŸ“„ License
+Licensed under the **MIT License**.
