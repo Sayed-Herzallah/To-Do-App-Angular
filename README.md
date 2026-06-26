@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  ![Angular](https://img.shields.io/badge/Angular-v17-red?logo=angular&style=for-the-badge) ![TypeScript](https://img.shields.io/badge/TypeScript-v5-blue?logo=typescript&style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+  <img src="https://img.shields.io/badge/Angular-v17-red?logo=angular&style=for-the-badge" alt="Angular" /> <img src="https://img.shields.io/badge/TypeScript-v5-blue?logo=typescript&style=for-the-badge" alt="TypeScript" /> <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </div>
 
 ---
