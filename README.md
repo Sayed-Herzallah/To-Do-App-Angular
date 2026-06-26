@@ -1,4 +1,4 @@
-# ðŸ’» Angular Todo Architecture
+# 💻 Angular Todo Architecture
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0f172a&height=160&section=header&text=Angular%20Todo%20Architecture&fontSize=42&fontColor=38bdf8&fontFamily=Outfit" width="100%" />
@@ -10,19 +10,19 @@
 
 ---
 
-## ðŸ“Œ Project Overview (Description)
+## 📌 Project Overview (Description)
 A modular to-do task management application built with Angular and TypeScript demonstrating custom directives and state persistence.
 
 This codebase represents professional software development practices, clean module organization, and efficient code architectures tailored for high responsiveness and scalability.
 
 ---
 
-## âš¡ The Engineering Challenge
+## ⚡ The Engineering Challenge
 
-### ðŸ”´ Problem
+### 🔴 Problem
 Developers building web solutions face difficulties handling state synchronization, styling inconsistencies, and complex configurations that clutter logic and trigger UI slowdowns or connection lifecycle failures.
 
-### ðŸŸ¢ Solution
+### 🟢 Solution
 This project implements:
 * **Separation of Concerns**: Structured module layouts separating design assets from operational logic.
 * **Optimized Rendering**: Efficient script logic and CSS layout variables to maintain lightweight UI paint times.
@@ -30,55 +30,53 @@ This project implements:
 
 ---
 
-## ðŸ§¬ System Architecture
+## 🧬 System Architecture
 The internal layout structures are separated logically:
-`	ext
+```text
 angular-todo-architecture/
-â”œâ”€â”€ css/ or styles/      # Styling engines and layouts
-â”œâ”€â”€ js/ or src/          # Source scripts and business logic
-â”œâ”€â”€ index.html or app.js # Operational entry point
-â””â”€â”€ README.md            # System documentation
-`
+├── css/ or styles/      # Styling engines and layouts
+├── js/ or src/          # Source scripts and business logic
+├── index.html or app.js # Operational entry point
+└── README.md            # System documentation
+```
 
 ---
 
-## ðŸ› ï¸ Technology Stack
+## 🛠️ Technology Stack
 
 | Technology | Purpose |
 | :--- | :--- |
 | Angular | Component-driven frontend framework |
-| TypeScript | Static type safety for javascript |
+| TypeScript | Static type safety for JavaScript |
 
 ---
 
-## ðŸš€ Local Developer Setup & Run
+## 🚀 Local Developer Setup & Run
 
-### ðŸ“‹ Prerequisites
+### 📋 Prerequisites
 * Modern web browser / Node.js runtime (depending on project stack)
 
-### âš™ï¸ Quick Start Steps
-`ash
+### ⚙️ Quick Start Steps
+```bash
     git clone https://github.com/Sayed-Herzallah/angular-todo-architecture.git
     cd angular-todo-architecture
     # Open index.html in any modern browser, or run local server:
     python -m http.server 8080
-`
-
-
+```
 
 ---
 
-## ðŸ”® Future Improvements
+## 🔮 Future Improvements
 * [ ] Integrate automated unit testing.
 * [ ] Add dynamic dark/light theme switcher.
 * [ ] Improve responsiveness on extra-small mobile screen viewports.
 
 ---
 
-## ðŸ‘¥ Contributors
+## 👥 Contributors
 * **Sayed Herzallah** - Lead Developer & Systems Architect
 
 ---
 
-## ðŸ“„ License
+## 📄 License
 Licensed under the **MIT License**.
